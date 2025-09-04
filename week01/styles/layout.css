@@ -18,10 +18,10 @@ body {
 }
 header {
     grid-area: header;
-    padding: 20px;
+    padding: 10px;
 }
 header h1 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 main{
     grid-area: main;
@@ -72,7 +72,6 @@ body {
   font-family: Georgia, serif;
 }
 
-/* Header (includes nav inside) */
 header {
   grid-area: header;
   background-color: #333;
@@ -83,7 +82,6 @@ header h1 {
   padding: 20px;
 }
 
-/* Navigation inside header */
 nav {
   background-color: #000;
 }
@@ -101,21 +99,18 @@ nav a {
   font-weight: bold;
 }
 
-/* Main content */
 main {
   grid-area: main;
   background-color: #ccc;
   padding: 20px;
 }
 
-/* Aside */
 aside {
   grid-area: aside;
   background-color: white;
   padding: 20px;
 }
 
-/* Footer */
 footer {
   grid-area: footer;
   background-color: #333;
