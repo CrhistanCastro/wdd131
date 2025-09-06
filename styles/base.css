@@ -75,7 +75,7 @@ h2,h4 {
 }
 p {
     font-family: var(--body-font);
-    color: solid black;
+    color: black;
     font-size:x-large;
     text-align: center;
 }
