@@ -1,6 +1,5 @@
 @media screen and (max-width:500px) {
     .img-grid {
-        display: grid;
         grid-template-columns: 1fr;
     }
     nav {
