@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <meta name="Author" content="Crhistan Castro">
-    <meta name="Description" content="Web country page">
+    <meta name="Description" content="Dominican Republic web page">
     <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/place-large.css">
     <script src="scripts/place.js" defer></script>
@@ -15,15 +15,78 @@
 </head>
 <body>
     <header>
-        <h1></h1>
+        <h1>Dominican Republic</h1>
     </header>
     <main>
-        <picture></picture>
-        <section>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp" alt="Enriquillo Lake" width="1500" height="750">
+            </picture>
+        </div>
+        <section class="data">
             <h2>Data</h2>
+            <div class="data-tab">
+                <table>
+                    <tr>
+                        <td><strong>Area:</strong></td>
+                        <td>48,671 km²</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Population:</strong></td>
+                        <td>11,532,151</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Capital:</strong></td>
+                        <td>Santo Domingo</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Language:</strong></td>
+                        <td>Spanish</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Currency:</strong></td>
+                        <td>Dominican Peso</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Time Zone:</strong></td>
+                        <td>UTC-4:00</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Calling Code:</strong></td>
+                        <td>+1</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Internet TLD:</strong></td>
+                        <td>.do</td>
+                    </tr>
+                </table>
+            </div>
         </section>
-        <section>
+        <section class="weather">
             <h2>Weather</h2>
+            <div class="weather-icon"></div>
+            <div class="weather-tab">
+                <table>
+                    <tr>
+                        <td><strong>Temperature:</strong></td>
+                        <td><span id="temp">26</span>°C</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Conditions:</strong></td>
+                        <td><span>Very Cloudy</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wind:</strong></td>
+                        <td><span id="windsp">5</span>km/h</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wind Chill:</strong></td>
+                        <td><span id="windchill"></span></td>
+                    </tr>
+                </table>
+            </div>
         </section>
     </main>
     <footer>
