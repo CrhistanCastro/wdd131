@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #134074;
+    --secondary-color: #453823;
+    --heading-font: "Oswald", sans-serif;
+    --body-font: "Outfit", sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table {
+    position: absolute;
+    margin: 10px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: x-large;
+    top: 200px;
+    left: 200px;
+}
+th {
+    font-family: var(--heading-font);
+    background-color: var(--secondary-color);
+    color: white;
+}
+th, td {
+    padding: 7px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+td {
+    font-family: var(--body-font);
+}
+tbody tr:nth-child(even) {
+    background-color: #d9d4d4;
+}
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: 1rem;
+}
+tr:first-child th, .blank {
+    background-color: var(--primary-color);
+    color: white;
+}
