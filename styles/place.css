@@ -35,6 +35,9 @@
     right: 10%;
     content: "🌤️";
 }
+.weather-icon {
+    display: none;
+}
 body {
     font-family: var(--body-font);
     font-size: large;
