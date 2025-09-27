@@ -34,6 +34,7 @@
         width: 100px;
         height: 100px;
         margin-top: 10px;
+        background-image: url(../images/weather-icon.svg);
         background-repeat: no-repeat;
         justify-content: center;
         align-items: center;
