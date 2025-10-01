@@ -1,0 +1,23 @@
+main {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+img {
+    display: block;
+    animation: fade 15s;
+    width: 100%;
+    background: black;
+    margin-bottom: 10px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

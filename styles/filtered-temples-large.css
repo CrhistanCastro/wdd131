@@ -1,0 +1,39 @@
+@media screen and (max-width:500px) {
+    .img-grid {
+        grid-template-columns: 1fr;
+    }
+    nav {
+    display: none;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 1rem;
+    }
+    nav a {
+        padding: 0.5rem;
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+    }
+    nav.open {
+        display: flex;
+    }
+    #menu {
+        display: block;
+        font-size: 2rem;
+        border: none;
+        background: none;
+        color: white;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        cursor: pointer;
+    }
+    #menu::before {
+        content: "☰";
+    }
+    #menu.open::before {
+        content: "✖";
+    }
+}
