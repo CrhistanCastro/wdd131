@@ -2,6 +2,11 @@
     .img-grid {
         grid-template-columns: 1fr;
     }
+    .img-grid img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
     nav {
     display: none;
     flex-direction: column;
