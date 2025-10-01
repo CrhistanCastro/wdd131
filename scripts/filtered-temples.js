@@ -156,8 +156,6 @@ function templeCard(filterTemples) {
         img.setAttribute("src", temple.imageUrl);
         img.setAttribute("alt", `${temple.templeName} Temple`);
         img.setAttribute("loading", "lazy");
-        img.style.width="100%"
-        img.style.height="250px"
         
         card.appendChild(name);
         card.appendChild(location);
